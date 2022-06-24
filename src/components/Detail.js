@@ -15,7 +15,7 @@ import {Error} from './Error';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import Authorization from '../utils/Authorization';
 interface Props {
-    location: location;
+    location: Location;
 }
 const Detail = (props: Props) => {
     const [loading, setLoading] = useState(true);
@@ -46,7 +46,6 @@ const Detail = (props: Props) => {
                 setLoading(false);
             }).catch(e => setError(e));*/
     };
-
     const handleRefresh = () => {
         loadData();
     };

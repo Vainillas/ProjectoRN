@@ -39,7 +39,7 @@ const List = ({navigation}) => {
         setLocations([
             new Location({
                 id: 1, name: "Viedma", contact: "2920553263",
-                linkInfo: "link info", latitude: 23.34, longitude: 23.4,
+                linkInfo: "link info", latitude: -40.8133, longitude: -62.9973,
             }),
             new Location({
                 id: 2, name: "Carmen de patagones", contact: "292054325232",
